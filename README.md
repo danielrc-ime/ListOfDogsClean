@@ -97,3 +97,8 @@ Mejoras a futuro:
   - Utilizar Environment para la Entidad
   - Agregar Alert cuando exista un error
   - Agregar tracking para errores
+
+## 📸 Screenshot
+<img src="https://github.com/user-attachments/assets/525a89d4-5da8-4677-970d-1f00b47ce90c" width="200">
+
+
