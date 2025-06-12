@@ -18,6 +18,36 @@
             endingLineNumber = "32"
             landmarkName = "loadDogs()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05A49975-043C-458C-B183-AB4ECE956887 - 72a8adbcc5e16e04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ListOfDogsClean.ListOfDogsViewModel.loadDogs() async -&gt; ()"
+                  moduleName = "ListOfDogsClean.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniel/Documents/DevThings/Xcode/ListOfDogsClean/ListOfDogsClean/Presentation/ViewModel/ListOfDogsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "05A49975-043C-458C-B183-AB4ECE956887 - 194b405a1660caf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ListOfDogsCleanTests.ListOfDogsViewModel.loadDogs() async -&gt; ()"
+                  moduleName = "ListOfDogsCleanTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daniel/Documents/DevThings/Xcode/ListOfDogsClean/ListOfDogsClean/Presentation/ViewModel/ListOfDogsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

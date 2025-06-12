@@ -35,9 +35,7 @@ struct ListOfDogsView: View {
 #Preview {
     let networkService = URLSessionNetworkService()
     let apiSource = APISource(networkService: networkService)
-    let container = try! ModelContainer(for: DogEntity.self)
-    let context = container.mainContext
-    let repository = DogRepositoryImpl(apiSource: apiSource, context: context)
+    let repository = DogRepositoryImpl(apiSource: apiSource, context: nil)
     let getDogsUsecase = GetDogsUseCaseImpl(repository: repository)
     let getDogImageUseCase = GetDogImageUseCaseImpl(repository: repository)
     let viewModel = ListOfDogsViewModel(getDogsUseCase: getDogsUsecase, getDogImageUseCase: getDogImageUseCase)

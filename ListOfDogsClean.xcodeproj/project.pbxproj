@@ -29,9 +29,31 @@
 		652A777D2DF8CF7A00C69645 /* ListOfDogsCleanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListOfDogsCleanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6566715E2DFB529200713E5F /* Exceptions for "ListOfDogsClean" folder in "ListOfDogsCleanTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Repositories/DogRepository.swift,
+				Data/Sources/Local/MockService.swift,
+				Data/Sources/Remote/APISource.swift,
+				Data/Sources/Remote/NetworkService.swift,
+				Domain/Entities/Dog.swift,
+				Domain/Entities/DogEntity.swift,
+				Domain/UseCase/GetDogImageUseCase.swift,
+				Domain/UseCase/GetDogsUseCase.swift,
+				Presentation/ViewModel/ListOfDogsViewModel.swift,
+				Resources/ModelData.swift,
+			);
+			target = 652A77722DF8CF7A00C69645 /* ListOfDogsCleanTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		652A77652DF8CF7800C69645 /* ListOfDogsClean */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6566715E2DFB529200713E5F /* Exceptions for "ListOfDogsClean" folder in "ListOfDogsCleanTests" target */,
+			);
 			path = ListOfDogsClean;
 			sourceTree = "<group>";
 		};

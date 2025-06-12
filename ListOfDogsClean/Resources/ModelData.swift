@@ -2,11 +2,20 @@
 //  ModelData.swift
 //  ListOfDogsClean
 //
-//  Created by Daniel Alberto Rodriguez Cielo on 11/06/25.
+//  Created by Daniel Alberto Rodriguez Cielo on 12/06/25.
+//
+
+
+//
+//  ModelData.swift
+//  Landmarks
+//
+//  Created by Daniel Alberto Rodriguez Cielo on 20/05/25.
 //
 
 import Foundation
 
+@Observable
 class ModelData {
     var dogs: [Dog] = load("dogsData.json")
 }
